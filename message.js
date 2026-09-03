@@ -22,9 +22,9 @@
 
 // ↓↓↓ 部署后按 README 教程填写这三项（在 giscus.app 上生成）↓↓↓
 const GISCUS_CONFIG = {
-  repo: "",        // 例如 "3495257035-prog/3495257035-prog.github.io"
-  repoId: "",      // giscus.app 会生成
-  categoryId: "",  // giscus.app 会生成
+  repo: "3495257035-prog/AlesWeb",        // 例如 "3495257035-prog/3495257035-prog.github.io"
+  repoId: "R_kgDOUNjATA",      // giscus.app 会生成
+  categoryId: "DIC_kwDOUNjATM4DE0wi",  // giscus.app 会生成
 };
 // ↑↑↑ 填好之后评论区自动启用 ↑↑↑
 
