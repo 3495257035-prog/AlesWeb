@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="甘嘉乐的留言板 —— 电子日记与访客留言" />
+  <title>留言板 · 甘嘉乐</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="message">
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">甘嘉乐</a>
+      <ul class="nav-links">
+        <li><a href="about.html" data-nav="about">关于我</a></li>
+        <li><a href="hobbies.html" data-nav="hobbies">兴趣爱好</a></li>
+        <li><a href="learning.html" data-nav="learning">正在学习</a></li>
+        <li><a href="portfolio.html" data-nav="portfolio">作品集</a></li>
+        <li><a href="college.html" data-nav="college">大学生活</a></li>
+        <li><a href="message.html" data-nav="message">留言板</a></li>
+        <li><a href="contact.html" data-nav="contact">联系我</a></li>
+      </ul>
+      <!-- 手机端菜单按钮 -->
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 快捷传送条 -->
+  <div class="subnav">
+    <nav class="subnav-inner">
+      <a href="about.html" data-nav="about">🙋 关于我</a>
+      <a href="hobbies.html" data-nav="hobbies">🎯 兴趣爱好</a>
+      <a href="learning.html" data-nav="learning">📚 正在学习</a>
+      <a href="portfolio.html" data-nav="portfolio">🚀 作品集</a>
+      <a href="college.html" data-nav="college">🏫 大学生活</a>
+      <a href="message.html" data-nav="message">💬 留言板</a>
+      <a href="contact.html" data-nav="contact">📮 联系我</a>
+    </nav>
+  </div>
+
+  <!-- 页面标题区（紧凑版首屏） -->
+  <header class="page-hero">
+    <div class="hero-orb hero-orb-1" data-parallax="26" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" data-parallax="-20" aria-hidden="true"></div>
+    <div class="hero-parallax" data-parallax="6">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Message Board</p>
+        <h1 class="page-title">留言板</h1>
+        <p class="hero-tagline">我的电子日记本 · 也欢迎留下你的话</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 电子日记 -->
+    <section class="section section-light" id="diary">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Diary</p>
+          <h2 class="section-title">我的日记</h2>
+          <p class="section-desc">记录大学生活的点点滴滴。</p>
+        </div>
+        <div class="diary-list" id="diaryList">
+          <!-- diary.js 中的日记会自动渲染到这里 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 访客留言 -->
+    <section class="section section-gray" id="comments">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Comments</p>
+          <h2 class="section-title">访客留言</h2>
+          <p class="section-desc">
+            使用 GitHub 账号登录即可发表评论，留言会保存在我仓库的 Discussions 里。
+          </p>
+        </div>
+        <div id="giscusBox" class="reveal">
+          <!-- message.js 会在这里插入 giscus 评论组件 -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p><a href="index.html" class="footer-link">← 返回个人主页</a></p>
+    <p>© 2026 甘嘉乐 · 用心生活，认真Coding</p>
+  </footer>
+
+  <script src="diary.js"></script>
+  <script src="message.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

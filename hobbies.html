@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="甘嘉乐的兴趣爱好 —— 电子竞技、钓鱼、羽毛球、听音乐" />
+  <title>兴趣爱好 · 甘嘉乐</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="hobbies">
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">甘嘉乐</a>
+      <ul class="nav-links">
+        <li><a href="about.html" data-nav="about">关于我</a></li>
+        <li><a href="hobbies.html" data-nav="hobbies">兴趣爱好</a></li>
+        <li><a href="learning.html" data-nav="learning">正在学习</a></li>
+        <li><a href="portfolio.html" data-nav="portfolio">作品集</a></li>
+        <li><a href="college.html" data-nav="college">大学生活</a></li>
+        <li><a href="message.html" data-nav="message">留言板</a></li>
+        <li><a href="contact.html" data-nav="contact">联系我</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 快捷传送条 -->
+  <div class="subnav">
+    <nav class="subnav-inner">
+      <a href="about.html" data-nav="about">🙋 关于我</a>
+      <a href="hobbies.html" data-nav="hobbies">🎯 兴趣爱好</a>
+      <a href="learning.html" data-nav="learning">📚 正在学习</a>
+      <a href="portfolio.html" data-nav="portfolio">🚀 作品集</a>
+      <a href="college.html" data-nav="college">🏫 大学生活</a>
+      <a href="message.html" data-nav="message">💬 留言板</a>
+      <a href="contact.html" data-nav="contact">📮 联系我</a>
+    </nav>
+  </div>
+
+  <header class="page-hero">
+    <div class="hero-orb hero-orb-1" data-parallax="26" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" data-parallax="-20" aria-hidden="true"></div>
+    <div class="hero-parallax" data-parallax="6">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Hobbies</p>
+        <h1 class="page-title">兴趣爱好</h1>
+        <p class="hero-tagline">工作之外，保持热爱。</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-gray">
+      <div class="container">
+        <div class="hobby-grid">
+          <div class="hobby-card reveal">
+            <span class="hobby-icon">🎮</span>
+            <h3>电子竞技</h3>
+            <p>在虚拟世界里锻炼反应与团队协作，胜负之外更重要的是配合与心态。</p>
+          </div>
+          <div class="hobby-card reveal">
+            <span class="hobby-icon">🎣</span>
+            <h3>钓鱼</h3>
+            <p>与水边的安静相处，练习耐心——等一尾鱼的时间和调试代码差不多。</p>
+          </div>
+          <div class="hobby-card reveal">
+            <span class="hobby-icon">🏸</span>
+            <h3>羽毛球</h3>
+            <p>保持运动习惯，出汗之后头脑反而更清醒。</p>
+          </div>
+          <div class="hobby-card reveal">
+            <span class="hobby-icon">🎧</span>
+            <h3>听音乐</h3>
+            <p>写代码、看书、发呆时都需要的背景音，是生活的节奏器。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><a href="index.html" class="footer-link">← 返回个人主页</a></p>
+    <p>© 2026 甘嘉乐 · 用心生活，认真Coding</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

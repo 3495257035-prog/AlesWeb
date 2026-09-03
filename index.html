@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="甘嘉乐的个人网站 —— 2026级智能产品开发与应用学生" />
+  <title>甘嘉乐 · 个人主页</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 顶部导航：毛玻璃效果 -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">甘嘉乐</a>
+      <ul class="nav-links">
+        <li><a href="about.html" data-nav="about">关于我</a></li>
+        <li><a href="hobbies.html" data-nav="hobbies">兴趣爱好</a></li>
+        <li><a href="learning.html" data-nav="learning">正在学习</a></li>
+        <li><a href="portfolio.html" data-nav="portfolio">作品集</a></li>
+        <li><a href="college.html" data-nav="college">大学生活</a></li>
+        <li><a href="message.html" data-nav="message">留言板</a></li>
+        <li><a href="contact.html" data-nav="contact">联系我</a></li>
+      </ul>
+      <!-- 手机端菜单按钮 -->
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 首屏：开场（浅灰背景 + 流动光斑 + 鼠标视差） -->
+  <header class="hero" id="hero">
+    <div class="hero-orb hero-orb-1" data-parallax="34" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" data-parallax="-26" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-3" data-parallax="18" aria-hidden="true"></div>
+    <div class="hero-parallax" data-parallax="8">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Hello, 我是</p>
+        <h1 class="hero-title">甘嘉乐</h1>
+        <p class="hero-subtitle">
+          2026 级智能产品开发与应用学生
+        </p>
+        <p class="hero-tagline">一个老实人，认真做好每一件小事。</p>
+        <a href="#explore" class="hero-arrow" aria-label="向下滚动">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 板块入口 -->
+    <section class="section section-light" id="explore">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Explore</p>
+          <h2 class="section-title">探索更多</h2>
+          <p class="section-desc">点开任意板块，了解我的不同面。</p>
+        </div>
+        <div class="tile-grid">
+          <a class="tile reveal" href="about.html">
+            <span class="tile-emoji">🙋</span>
+            <h3>关于我</h3>
+            <p>我是谁，我从哪里来。</p>
+            <span class="tile-arrow">前往 →</span>
+          </a>
+          <a class="tile reveal" href="hobbies.html">
+            <span class="tile-emoji">🎯</span>
+            <h3>兴趣爱好</h3>
+            <p>电竞、钓鱼、羽毛球与音乐。</p>
+            <span class="tile-arrow">前往 →</span>
+          </a>
+          <a class="tile reveal" href="learning.html">
+            <span class="tile-emoji">📚</span>
+            <h3>正在学习</h3>
+            <p>大学第一年，打好基础。</p>
+            <span class="tile-arrow">前往 →</span>
+          </a>
+          <a class="tile reveal" href="portfolio.html">
+            <span class="tile-emoji">🚀</span>
+            <h3>作品集</h3>
+            <p>未来作品的陈列室，敬请期待。</p>
+            <span class="tile-arrow">前往 →</span>
+          </a>
+          <a class="tile reveal" href="college.html">
+            <span class="tile-emoji">🏫</span>
+            <h3>大学生活</h3>
+            <p>故事，从这里开始。</p>
+            <span class="tile-arrow">前往 →</span>
+          </a>
+          <a class="tile reveal" href="message.html">
+            <span class="tile-emoji">💬</span>
+            <h3>留言板</h3>
+            <p>我的电子日记本，欢迎捎句话。</p>
+            <span class="tile-arrow">前往 →</span>
+          </a>
+          <a class="tile reveal" href="contact.html">
+            <span class="tile-emoji">📮</span>
+            <h3>联系我</h3>
+            <p>邮箱与 GitHub，随时找到我。</p>
+            <span class="tile-arrow">前往 →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 甘嘉乐 · 用心生活，认真Coding</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
