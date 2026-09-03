@@ -1,5 +1,19 @@
 /* ============================================
-   留言板页面脚本：
+  <script src="https://giscus.app/client.js"
+        data-repo="3495257035-prog/AlesWeb"
+        data-repo-id="R_kgDOUNjATA"
+        data-category="General"
+        data-category-id="DIC_kwDOUNjATM4DE0wi"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script> 留言板页面脚本：
    1. 把 diary.js 里的日记渲染成卡片
    2. 访客评论区（giscus，基于 GitHub Discussions）
       —— 部署到 GitHub Pages 后，按 README 里的步骤
